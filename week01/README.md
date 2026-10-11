@@ -22,8 +22,8 @@
 ## 逐日安排（40h）
 
 ### 周一 10-12（6h）
-- [ ] 0.5h 修 git 邮箱 + 与导师确认到岗天数与最早入职日期
-- [ ] 0.5h GitHub 注册 → `ssh-keygen -t ed25519 -C "邮箱"` → 加公钥 → 建仓库 `cv-to-llm` → `git init` + 首次 push
+- [x] ~~0.5h 修 git 邮箱~~ 已完成 2026-10-11（`tjq111222@gmail.com`，`user.name=Jiaqi`）；**与导师确认到岗天数与最早入职日期仍待做**
+- [x] ~~0.5h GitHub 注册 → `ssh-keygen` → 加公钥 → 建仓库 `cv-to-llm` → `git init` + 首次 push~~ 已完成 2026-10-11（提前于计划）。仓库：<https://github.com/jiaqi-ml/cv-to-llm>，SSH 走 `ssh.github.com:443`（22 端口被网络屏蔽）
 - [ ] 1.0h **闭卷起点诊断**（`diagnosis.md`）——全程不用 AI、不查资料
 - [ ] 2.0h 中文官方教程 §3 数据结构（列表/元组/集合/字典）
 - [ ] 1.5h 6 个短练习 → `exercises/`
@@ -75,7 +75,7 @@
 ## 周日验收清单
 
 - [ ] git 邮箱拼写已修正（`gamil` → `gmail`），新 commit 作者邮箱正确
-- [ ] GitHub 有公开仓库 `cv-to-llm`，本地已 push，≥5 个 commit
+- [ ] GitHub 有公开仓库 `cv-to-llm`，本地已 push，≥5 个 commit（当前 3 个：初始化 / 脚手架 / README）
 - [ ] `diagnosis.md` 三题有闭卷作答记录，明确写出哪题卡住
 - [ ] `keyword_stats.py` 用普通循环 + 函数实现，能读 UTF-8 文本并输出 top-k
 - [ ] `exercises/` ≥12 个短练习
