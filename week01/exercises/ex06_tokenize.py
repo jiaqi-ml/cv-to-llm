@@ -29,10 +29,9 @@ print()
 # 写之前先答这两个问题：
 #   1. 这三个零件，哪些是必要的？为什么 .strip() 可能是多余的？
 #   2. 顺序能不能换？先 .split() 再 .lower() 行不行？
-#
+#先split再lower不行，因为split会把空格去掉，导致lower无法处理大写字母。strip是必要的，因为它可以去掉首尾的空格，避免影响切词结果。
 # 写在这里：
-
-
+raww = raw.strip().lower().split()
 # ============ 第三部分：三个用例都要跑 ============
 # 写完后，把下面三个用例都 print 出来，确认结果对得上：
 #
@@ -41,3 +40,6 @@ print()
 #   ""                   →   []
 #
 # 一个用例对不算过 —— 三个都对了才算过。
+for raw in ["  AI python AI  ", "   ", ""]:
+    raww = raw.strip().lower().split()
+    print(repr(raw), "->", raww)

@@ -59,3 +59,8 @@ for key in student:
 #   4. 把第 34 行的 # 去掉，运行，把报错原文抄进 debug_log.md 的记录 4
 #
 # 做完这四件事，你就具备写练习 7（词频统计）的全部零件了。
+student["age"] = 21
+student["major"] = "计算机视觉"
+print(student.get("major"))
+print(student.get("phone"))
+print(student["phone"])

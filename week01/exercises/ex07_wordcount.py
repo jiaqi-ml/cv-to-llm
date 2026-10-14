@@ -45,7 +45,11 @@ print()
 #   2. 空列表进来时，循环会执行几次？所以结果是什么？
 #
 # 写在这里：
-
+counts3 = {}
+for word in ["ai", "python", "ai"]:
+    counts3[word] = counts3.get(word, 0) + 1
+print("最终词频：", counts3)                      # 应该是 {'ai': 2, 'python': 1}
+print()                                         # 空一行
 
 # ============ 第三部分：把它接上练习 6 ============
 # 你有两段能力了：
